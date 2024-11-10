@@ -60,12 +60,12 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://cut-url.vercel.app/${link}`}
+            href={`https://cuturl.tech/${link}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl sm:text-3xl text-red-500 font-bold hover:underline cursor-pointer break-words"
           >
-            https://cut-url.vercel.app/{link}
+            https://cuturl.tech/{link}
           </a>
           <a
             href={url?.original_url}
@@ -80,7 +80,7 @@ const LinkPage = () => {
             {new Date(url?.created_at).toLocaleString()}
           </span>
           <div className="flex gap-3 mt-2">
-            <Button variant="ghost" onClick={() => navigator.clipboard.writeText(`https://cut-url.vercel.app/${link}`)}>
+            <Button variant="ghost" onClick={() => navigator.clipboard.writeText(`https://cuturl.tech/${link}`)}>
               <Copy className="text-white" />
             </Button>
             <Button variant="ghost" onClick={downloadImage}>
