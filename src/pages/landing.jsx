@@ -20,7 +20,7 @@ const LandingPage = () => {
     <div className="flex flex-col items-center justify-center mt-14 px-4 sm:px-8 lg:px-16 w-full">
       <div className="text-center max-w-4xl mb-2 px-4 sm:px-8 lg:px-16">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-400 dark:text-neutral-400 leading-tight whitespace-nowrap">
-          The only FREE URL{" "}
+          The FREE URL{" "}
           <span className="text-rose-600">
             <FlipWords words={words} />
           </span>
