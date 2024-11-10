@@ -36,7 +36,7 @@ const LinkCard = ({ url = [], fetchUrls }) => {
           to={`/link/${url?.id}`}
           className="text-lg text-red-500 font-medium hover:underline truncate"
         >
-          https://cuturl.tech/{url?.custom_url || url?.short_url}
+          https://cut-url.vercel.app/{url?.custom_url || url?.short_url}
         </Link>
         <div className="flex items-center text-blue-400 gap-1 my-2 truncate">
           <LinkIcon lassName="p-1 text-blue" />
@@ -50,7 +50,7 @@ const LinkCard = ({ url = [], fetchUrls }) => {
         <Button
           variant="ghost"
           onClick={() =>
-            navigator.clipboard.writeText(`https://cuturl.tech/${url?.short_url}`)
+            navigator.clipboard.writeText(`https://cut-url.vercel.app/${url?.short_url}`)
           }
         >
           <Copy />
