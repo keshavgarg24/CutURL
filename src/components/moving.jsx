@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[20rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>
   );
@@ -23,7 +23,8 @@ const testimonials = [
     title: "E-Commerce Specialist",
   },
   {
-    quote: "With CutURL, I’ve gained the ability to see who’s clicking on my links, where they’re from, and how they’re interacting with my content.",
+    quote:
+      "With CutURL, I’ve gained the ability to see who’s clicking on my links, where they’re from, and how they’re interacting with my content.",
     title: "Content Creator",
   },
   {
