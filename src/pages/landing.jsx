@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { InfiniteMovingCardsDemo } from "@/components/moving";
 
 const LandingPage = () => {
-  const words = ["shortener", "analyzer", "tracker", "optimizer"];
+  const words = ["shortener", "analyser", "tracker", "optimiser"];
   const [longUrl, setLongUrl] = useState("");
   const navigate = useNavigate();
 
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mt-14 px-4 sm:px-8 lg:px-16 w-full">
-      <div className="text-center max-w-4xl mb-2">
+      <div className="text-center max-w-4xl mb-2 px-4 sm:px-8 lg:px-16">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-400 dark:text-neutral-400 leading-tight whitespace-nowrap">
           The only FREE URL{" "}
           <span className="text-rose-600">
